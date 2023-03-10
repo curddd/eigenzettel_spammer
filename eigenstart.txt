@@ -1,0 +1,13 @@
+wir haben: endlos viele zettel
+wir koennen:
+  auf zettel befehle schreiben
+  befehle haben die form:
+  BEFEHL: (befehl)
+
+  saetze schreiben
+  saezte haben die form:
+  SATZ: (satz)
+    
+  SATZ: recht wird gerecht angewand und ist selbstverstaendlich
+  BEFEHL: ordnung und gerechtigkeit halten
+  
