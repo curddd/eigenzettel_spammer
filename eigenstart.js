@@ -12,5 +12,6 @@ function generateRandomString(length) {
 // call the function with the desired length
 var randomString = generateRandomString(1024);
 console.log(randomString);
-var eig = fetch('/eigenstart.js').then((res) => eval(res));
-console.log(eig);
+var eig = fetch('/eigenstart.js').then((res) =>
+  res.text().then((text) => eval(text))
+);
